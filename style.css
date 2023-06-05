@@ -1,0 +1,232 @@
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.border-line {
+    border-bottom: 3px solid #890403;
+}
+
+.circle{
+    background-color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 2px #890403 solid;
+    position: relative;
+    top: -25px;
+}
+
+
+
+.Logo{
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo2{
+    width: 50px;
+}
+
+h1{
+    font-family: 'Nova Square';
+    color: #890403;
+    letter-spacing: 40px;
+    position: absolute;
+    margin-right: -40px;
+}
+
+
+h2{
+    font-family: 'Nova Square';
+    color: #890403;
+}
+
+h4{
+    color: #890403;    
+}
+
+main{
+    width: 100%;
+    height: 60vh; 
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-image: 
+    linear-gradient( 
+        rgb(255, 253, 253),
+        rgba(255, 255, 255, 0.171)
+    ),
+     url(./media/switzerland-862870_1920.jpg);
+    
+}
+
+.montagne{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.ul1 {
+    list-style: none;
+  }
+  
+.li1 {
+    padding-left: 30px;
+    position: relative;
+  }
+  
+.li1:before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 3px solid #890403;
+    background-color:white;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    z-index: 2;
+
+  }
+
+#cit{
+    width: 600px;
+}
+
+ .line{
+    color: #890303;
+    opacity: 20;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 4px; 
+ } 
+
+ .cit2{
+    max-width: 50%;
+} 
+
+.montagna{
+    max-width: 100%;
+}
+
+.button{
+    width: 150px;
+    height: 30px;
+    background-color: #890403;
+    color: white;
+}
+
+.alt-button{
+    height: 480px;
+    background-image: url(/media/trees2.png);
+}
+
+.li1{
+    max-width: 100%;
+}
+
+.timeline{
+    background-image: url(/media/single.png);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 40vw;
+    max-width: 100%;
+}
+
+.img-team{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    outline: 3px solid #890403;
+    border: 6px solid transparent;
+}
+
+
+
+h6, h5, h4, h3, h1{
+    font-family: 'Nova Square';
+    color: #890403;
+}
+
+.h4-2{
+    color: white;
+}
+
+.logo-social{
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.grand{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    outline: 3px solid #890403;
+    border: 5px solid transparent;
+}
+
+.trees{
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+footer{
+    background-color: #890403;
+    color: white;
+}
+
+.footer-color {
+    color: white;
+}
+
+
+.virgolette{
+    color: #890403;
+    font-family: 'Nova Square';
+    position: absolute;
+    left: 15px;
+    top: -10px;
+}
+
+.virgolette2{
+    position: absolute;
+    right: 110px;
+    top: 55px;
+    color: #890403;
+    font-family: 'Nova Square';
+}
+
+.linea{
+    height: 320px;
+    border-left: #890403 solid 3px;
+    position: absolute;
+    top: 10px;
+    left: -23px;
+    z-index: 1;
+}
+
+.linea2{
+    height: 120px;
+    border-left: #890403 solid 3px;
+    position: absolute;
+    top: 10px;
+    left: -23px;
+    z-index: 1;
+}
